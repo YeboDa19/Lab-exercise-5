@@ -56,7 +56,13 @@ bool is_valid_number (string input) {
     else if ((input.length() == 2) && (static_cast<int>(input.at(0)) != 49 ) && (static_cast<int>(input.at(1)) != 48)) {
         return false;
     }
+    else if ((input.length() == 2) && (static_cast<int>(input.at(0)) > 49 )) {
+        return false;
+    }
     else if ((input.length() == 1) && (static_cast<int>(input.at(0)) < 53)) {
+        return false;
+    }
+    else if ((input.length() == 2) && (static_cast<int>(input.at(1)) > 48)) {
         return false;
     }
     else {
