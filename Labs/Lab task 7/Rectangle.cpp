@@ -5,6 +5,11 @@ Rectangle::Rectangle() {
     width = 0;
 }
 
+Rectangle::Rectangle(float newLength, float newWidth) {
+    length = newLength;
+    width = newWidth;
+}
+
 float Rectangle::calculateRectangleArea() {
     // method for calculating the area of a rectangle
     return length * width;

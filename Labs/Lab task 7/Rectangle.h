@@ -8,6 +8,7 @@ private:
 
 public:
     Rectangle();
+    Rectangle(float newLength, float newWidth);
     float calculateRectangleArea ();
     float getLength();
     float getWidth();
