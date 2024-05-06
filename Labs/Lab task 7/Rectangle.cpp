@@ -34,3 +34,5 @@ void Rectangle::setWidth(float newWidth) {
     // accessor method for getting length
     width = newWidth;
 }
+
+Rectangle::~Rectangle() {}
