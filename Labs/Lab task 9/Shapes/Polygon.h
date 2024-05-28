@@ -1,10 +1,10 @@
 #pragma once
 
 class Polygon {
- protected:
+protected:
     int mWidth;
     int mHeight;
- public:
+public:
     void SetValues(int width, int height);
-    virtual int Area();
+    virtual int Area() = 0;
 };
